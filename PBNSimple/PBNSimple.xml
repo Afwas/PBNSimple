@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.7" type="plugin" group="content">
+<name>Content - PBN replaced by hand in HTML table</name>
+<author>Foppe Hemminga</author>
+<creationDate>December 2011</creationDate>
+<copyright>(C) 2011</copyright>
+<license>GPLv2</license>
+<authorEmail>foppe@hemminga.net</authorEmail>
+<authorUrl>http://www.hemminga.net</authorUrl>
+<version>0.2</version>
+<description>Searches for raw PBN strings in text
+and replaces that with a hand formatted in a HTML 
+table</description>
+<files>
+<filename plugin="PBNSimple">PBNSimple.php</filename>
+</files>
+<media destination="PBNSimple" folder="media">
+<folder>images</folder>
+</media>
+<params />
+</install>

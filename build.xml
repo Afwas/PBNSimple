@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="PBNSimple" default="copy_all" basedir=".">
+	<property name="src" value="PBNSimple" />
+	<property name="images" value="PBNSimple/images" />
+	<property name="media" value="../../public_html/media/PBNSimple/images" />
+		<property name="test"
+	value="../../public_html/plugins/content/PBNSimple" />
+	<target name="copy_all" description="Copies file to test project.">
+		<echo message="Running build.xml. Copying files from workspace
+		to Joomla on ~/public_html." />
+		<copy file="${src}/PBNSimple.php" todir="${test}" />
+		<copy file="${src}/PBNSimple.xml" todir="${test}" />
+		<copy file="${images}/spade.png" todir="${media}" />
+		<copy file="${images}/heart.png" todir="${media}" />
+		<copy file="${images}/diamond.png" todir="${media}" />
+		<copy file="${images}/club.png" todir="${media}" />
+	</target>
+</project>
